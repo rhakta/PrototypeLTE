@@ -9,7 +9,7 @@
 @section('content')
     <p>Cette page permet de mettre à jour l'application</p>
     <hr class="my-3">
-    <a class="btn btn-success" href="<?php echo e(route('AdminUpdate')); ?>">Update</a>
+    <a class="btn btn-success" href="<?php echo e(route('AdminUpdate')); ?>">Mise à jour</a>
     <hr class="my-3">
     @if (isset ($sReussie) && !empty($sReussie))
     <span>{{$sReussie}}</span>
