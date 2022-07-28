@@ -18,7 +18,7 @@ class AdminController extends Controller
         $sBat='C:\laragon\www\PrototypeLTE\public\GitPull.bat';
         try{
             exec($sBat);
-            return view ('page.Admin-Update')->with('sReussie','Mise-à-jour réussie');
+            return view ('page.Admin-Update')->with('sReussie','Mise à jour réussie');
         }catch(Throwable $e){}
         echo 'non';
         return view ('page.Admin-Update')->with('sReussie','Echec de la mise à jour');
