@@ -262,6 +262,12 @@ return [
             'icon_color' => 'green',
             'url'        => 'excel-echeance',
         ],
+        ['header' => 'Administrateur'],
+        [
+            'text'       => 'Mise à jour du logiciel',
+            'icon_color' => 'black',
+            'url'        => 'Admin-Update',
+        ],
     ],
 
     /*
