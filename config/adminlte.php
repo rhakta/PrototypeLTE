@@ -268,11 +268,6 @@ return [
             'icon_color' => 'black',
             'url'        => 'Admin-Update',
         ],
-        [
-            'text'       => 'Yay',
-            'icon_color' => 'violet',
-            'url'        => 'Admin-Update',
-        ],
     ],
 
     /*
