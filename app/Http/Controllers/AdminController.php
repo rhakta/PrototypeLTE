@@ -15,7 +15,7 @@ class AdminController extends Controller
 
     public function GitUpdate()
     {
-        $sBat='GitPull.bat';
+        $sBat='C:\laragon\www\PrototypeLTE\public\GitPull.bat';
         try{
             exec($sBat);
             return view ('page.Admin-Update')->with('sReussie','Mise-à-jour réussie');
